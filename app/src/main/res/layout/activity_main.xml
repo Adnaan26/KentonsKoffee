@@ -14,6 +14,7 @@
         android:id="@+id/imageView8"
         android:layout_width="match_parent"
         android:layout_height="222dp"
+        android:onClick="onYouTubeButtonClick"
         app:srcCompat="@drawable/kantmaid" />
 
     <TextView
@@ -37,42 +38,42 @@
             android:orientation="vertical">
 
             <ImageView
-                android:id="@+id/imageView7"
+                android:id="@+id/img_sb1"
                 android:layout_width="240dp"
                 android:layout_height="250dp"
                 android:layout_gravity="center"
                 app:srcCompat="@drawable/sb6" />
 
             <ImageView
-                android:id="@+id/imageView4"
+                android:id="@+id/img_sb2"
                 android:layout_width="240dp"
                 android:layout_height="250dp"
                 android:layout_gravity="center"
                 app:srcCompat="@drawable/sb4" />
 
             <ImageView
-                android:id="@+id/imageView3"
+                android:id="@+id/img_sb3"
                 android:layout_width="240dp"
                 android:layout_height="250dp"
                 android:layout_gravity="center"
                 app:srcCompat="@drawable/sb3" />
 
             <ImageView
-                android:id="@+id/imageView6"
+                android:id="@+id/img_sb4"
                 android:layout_width="240dp"
                 android:layout_height="250dp"
                 android:layout_gravity="center"
                 app:srcCompat="@drawable/sb5" />
 
             <ImageView
-                android:id="@+id/imageView"
+                android:id="@+id/img_sb5"
                 android:layout_width="240dp"
                 android:layout_height="250dp"
                 android:layout_gravity="center"
                 app:srcCompat="@drawable/sb1" />
 
             <ImageView
-                android:id="@+id/imageView2"
+                android:id="@+id/img_sb6"
                 android:layout_width="240dp"
                 android:layout_height="250dp"
                 android:layout_gravity="center"
